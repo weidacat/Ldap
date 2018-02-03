@@ -15,10 +15,12 @@ Installing
 Require it from your command line :
 
 ```bash
-composer require weidacat/ldap
+composer require "weidacat/ldap:dev-master"
 ```
 
-Add the service provider to config/app :
+In Laravel 5.5 or higher, this package will be automatically discovered and you can safely skip the following two steps.
+
+If using Laravel 5.4 or lower, after updating composer, Add the service provider to config/app :
 
 ```php
 Xavrsl\Ldap\LdapServiceProvider::class,

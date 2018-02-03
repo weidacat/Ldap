@@ -28,10 +28,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Xavrsl\\Ldap\\LdapServiceProvider"
+                "Weidacat\\Ldap\\LdapServiceProvider"
             ],
             "aliases": {
-                "Ldap": "Xavrsl\\Ldap\\Facades\\Ldap"
+                "Ldap": "Weidacat\\Ldap\\Facades\\Ldap"
             }
         }
     }
