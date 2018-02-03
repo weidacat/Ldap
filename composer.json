@@ -1,5 +1,5 @@
 {
-    "name": "xavrsl/ldap",
+    "name": "weidacat/ldap",
     "description": "Add Ldap Search possibilities to Laravel",
     "keywords": ["laravel", "ldap", "search"],
 	"license": "MIT",
@@ -10,7 +10,8 @@
         },
         {
             "name": "Weida Lin",
-            "email": "weidaalone@163.com"
+            "email": "weidaalone@163.com",
+            "role": "Packager"
         }
     ],
     "require": {
