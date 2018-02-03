@@ -8,7 +8,7 @@ use Illuminate\Auth\EloquentUserProvider;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Config;
-use Xavrsl\Ldap\Facades\Ldap;
+use Weidacat\Ldap\Facades\Ldap;
 
 class LdapAuthUserProvider extends EloquentUserProvider
 {

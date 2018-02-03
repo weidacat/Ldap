@@ -28,7 +28,7 @@ class LdapManager {
 	/**
 	 * Get a Ldap connection instance.
 	 *
-	 * @return Xavrsl\Ldap\Directory
+	 * @return Weidacat\Ldap\Directory
 	 */
 	public function connection()
 	{
@@ -43,7 +43,7 @@ class LdapManager {
 	/**
 	 * Create the given connection.
 	 *
-	 * @return Xavrsl\Ldap\Directory
+	 * @return Weidacat\Ldap\Directory
 	 */
 	protected function createConnection()
 	{

@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;
-use Xavrsl\Ldap\Providers\LdapAuthUserProvider;
+use Weidacat\Ldap\Providers\LdapAuthUserProvider;
 
 class LdapServiceProvider extends ServiceProvider {
 
