@@ -1,4 +1,4 @@
-<?php namespace Xavrsl\Ldap;
+<?php namespace Weidacat\Ldap;
 
 use Illuminate\Support\Facades\Cache;
 

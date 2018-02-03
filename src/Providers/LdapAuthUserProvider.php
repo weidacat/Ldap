@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Xavrsl\Ldap\Providers;
+namespace Weidacat\Ldap\Providers;
 
 
 use Illuminate\Auth\EloquentUserProvider;

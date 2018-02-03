@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Xavrsl\\Ldap\\": "src/"
+            "Weidacat\\Ldap\\": "src/"
         }
     },
     "extra": {

@@ -1,4 +1,4 @@
-<?php namespace Xavrsl\Ldap;
+<?php namespace Weidacat\Ldap;
 
 class Connection implements ConnectionInterface {
 
