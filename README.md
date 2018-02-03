@@ -23,13 +23,13 @@ In Laravel 5.5 or higher, this package will be automatically discovered and you 
 If using Laravel 5.4 or lower, after updating composer, Add the service provider to config/app :
 
 ```php
-Xavrsl\Ldap\LdapServiceProvider::class,
+Weidacat\Ldap\LdapServiceProvider::class,
 ```
 
 Add the facade to the alias array (also in config/app):
 
 ```php
-'Ldap' => Xavrsl\Ldap\Facades\Ldap::class,
+'Ldap' => Weidacat\Ldap\Facades\Ldap::class,
 ```
 
 You then need to publish and customize the config file to indicate the location of your ldap server and also set your dn, attributes etc. :
