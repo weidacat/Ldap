@@ -7,16 +7,30 @@
         {
             "name": "Xavier Roussel",
             "email": "contact@xavrsl.fr"
+        },
+        {
+            "name": "Weida Lin",
+            "email": "weidaalone@163.com"
         }
     ],
     "require": {
         "php": ">=5.5.9",
         "ext-ldap": "*",
-        "illuminate/support": "~5.0"
+        "illuminate/support": "^5.4"
     },
     "autoload": {
-        "psr-0": {
-            "Xavrsl\\Ldap": "src/"
+        "psr-4": {
+            "Xavrsl\\Ldap\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xavrsl\\Ldap\\LdapServiceProvider"
+            ],
+            "aliases": {
+                "Ldap": "Xavrsl\\Ldap\\Facades\\Ldap"
+            }
         }
     }
 }
