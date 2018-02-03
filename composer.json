@@ -2,6 +2,7 @@
     "name": "weidacat/ldap",
     "description": "Add Ldap Search possibilities to Laravel",
     "keywords": ["laravel", "ldap", "search"],
+    "homepage": "https://github.com/weidacat/Ldap",
 	"license": "MIT",
     "authors": [
         {
