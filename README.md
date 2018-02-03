@@ -15,7 +15,7 @@ Installing
 Require it from your command line :
 
 ```bash
-composer require xavrsl/ldap
+composer require weidacat/ldap
 ```
 
 Add the service provider to config/app :
